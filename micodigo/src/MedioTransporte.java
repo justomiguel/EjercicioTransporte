@@ -28,4 +28,6 @@ public abstract class MedioTransporte {
         return getMultplicador()*getDistancia();
     }
 
+    public abstract void estacionar();
+
 }
